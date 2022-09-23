@@ -1,0 +1,141 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid .row {
+    margin: 0;
+    padding: 0;
+}
+
+.no-padding-no-margin {
+    margin: 0;
+    padding: 0;
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+
+.splash-text {
+    font-size: 36px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #282848;
+    margin: 0px 0px 16px;
+}
+
+.role {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+.splash-description {
+    margin-top: 1.5em;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    color: Black;
+
+}
+
+hr {
+    display: block;
+    margin: 0.5em auto;
+    border-style: inset;
+    border-width: 2px;
+    width: 100%;
+    color: Black;
+}
+
+.card {
+    background: white;
+    text-align: center;
+    box-shadow: 0 8px 28px hsl(210deg 8% 62% / 30%);
+    border-radius: 8px;
+
+}
+
+.wrapper {
+    padding: 100px;
+}
+
+.image-cover {
+    margin: 120px 20px 20px 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center right;
+}
+
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: #E0E0E0;
+    position: sticky;
+    top: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+    .intro-container {
+        min-height: 100vh;
+    }
+}
+
+.link {
+    color: #0D47A1;
+    text-decoration: underline;
+    font-size: 1.2em;
+    font-family: "Fjalla One", sans-serif;
+    padding-bottom: 32px;
+    display: inline-block;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 32px;
+}
+
+.icons img {
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+}
+
+.icons a {
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper {
+    font-size: 48px;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes wave {
+    0% { transform: rotate(0.0deg) }
+    10% { transform: rotate(16.0deg) }
+    20% { transform: rotate(-6.0deg) }
+    30% { transform: rotate(16.0deg) }
+    40% { transform: rotate(-4.0deg) }
+    50% { transform: rotate(16.0deg) }
+    60% { transform: rotate(0.0deg) }
+    100% { transform: rotate(0.0deg) }
+}
+
+.waving-hand {
+    animation: wave 2.1s 0.6s infinite;
+    transform-origin: 75% 75%;
+    display: inline-block;
+}
