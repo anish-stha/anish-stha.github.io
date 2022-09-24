@@ -3,6 +3,7 @@ import ic_location from "./assets/ic_location.png";
 import ic_email from "./assets/ic_email.png";
 import ic_github from "./assets/ic_github.png"
 import ic_linkedin from "./assets/ic_linkedin.png";
+import resume from "./assets/Resume.pdf";
 import ReactTypingEffect from 'react-typing-effect';
 
 function Intro(props) {
@@ -64,7 +65,7 @@ function Intro(props) {
                 </div>
             </div>
 
-            <a href="" className="link">View Resume</a>
+            <a href="https://drive.google.com/uc?export=download&id=1anT37t3MS7WbVgZM10Q8Ypdimf_XSrdW" download className="link">View Resume</a>
 
         </div>
     );
