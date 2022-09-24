@@ -12,27 +12,27 @@ function Intro(props) {
                  className="image-cover"/>
             <h1 className="splash-text">Anish Shrestha</h1>
 
-            {/*<ReactTypingEffect*/}
-            {/*    text={["Software Engineer", "Full Stack Developer"]}*/}
-            {/*    cursorRenderer={cursor => <h2>{cursor}</h2>}*/}
-            {/*    speed={100}*/}
-            {/*    typingDelay={0}*/}
-            {/*    eraseSpeed={30}*/}
-            {/*    displayTextRenderer={(text, i) => {*/}
-            {/*        return (*/}
-            {/*            <h2 className="role">*/}
-            {/*                {text.split('').map((char, i) => {*/}
-            {/*                    const key = `${i}`;*/}
-            {/*                    return (*/}
-            {/*                        <span key={key}>{char}</span>*/}
-            {/*                    );*/}
-            {/*                })}*/}
-            {/*            </h2>*/}
-            {/*        );*/}
-            {/*    }}*/}
-            {/*/>*/}
+            <ReactTypingEffect
+                text={["Software Engineer", "Full Stack Developer"]}
+                cursorRenderer={cursor => <h2>{cursor}</h2>}
+                speed={100}
+                typingDelay={0}
+                eraseSpeed={30}
+                displayTextRenderer={(text, i) => {
+                    return (
+                        <h2 className="role">
+                            {text.split('').map((char, i) => {
+                                const key = `${i}`;
+                                return (
+                                    <span key={key}>{char}</span>
+                                );
+                            })}
+                        </h2>
+                    );
+                }}
+            />
 
-            <h4 className="role">Software Engineer | Full Stack Developer</h4>
+            {/*<h4 className="role">Software Engineer | Full Stack Developer</h4>*/}
             <h4>Louisiana State University</h4>
 
 
@@ -43,21 +43,21 @@ function Intro(props) {
                 </div>
 
                 <div>
-                    <a className="icons_link" href="mailto:np.anishstha@gmail.com">
+                    <a href="mailto:np.anishstha@gmail.com">
                         <img className="img-valign" src={ic_email}/>
                         <span>np.anishstha@gmail.com</span>
                     </a>
                 </div>
 
                 <div>
-                    <a className="icons_link" href="https://github.com/anish01stha">
+                    <a href="https://github.com/anish01stha">
                         <img className="img-valign" src={ic_github}/>
                         <span>Github</span>
                     </a>
                 </div>
 
                 <div>
-                    <a className="icons_link" href="https://www.linkedin.com/in/anishstha/">
+                    <a href="https://www.linkedin.com/in/anishstha/">
                         <img className="img-valign" src={ic_linkedin}/>
                         <span>Linkedin</span>
                     </a>

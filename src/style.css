@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    text-align: left;
 }
 
 .container-fluid .row {
@@ -12,6 +13,14 @@ body {
     padding: 0;
     --bs-gutter-x: 0;
     --bs-gutter-y: 0;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-muted {
+    color: #9E9E9E !important;
 }
 
 .splash-text {
@@ -69,6 +78,52 @@ hr {
     object-position: center right;
 }
 
+.project-image {
+    margin: 20px 20px 20px 20px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center right;
+}
+
+ul.project-points{
+    padding-left: 0;
+}
+
+ul.project-points  li {
+    list-style: none;
+    position: relative;
+    padding: 0 0 0 20px;
+
+}
+
+
+.nav-item.active {
+    /*text-decoration: underline;*/
+    color: #0D47A1 !important;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 1.5em;
+}
+
+.nav-item.active li, .nav-item.active a {
+    /*color: #0D47A1 !important;*/
+}
+
+
+.nav-item  {
+    font-family: "Fjalla One", sans-serif;
+    font-size: 1.5em;
+}
+
+ul.project-points  li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: #ff6600;
+}
 
 .intro-container {
     display: flex;
@@ -138,4 +193,11 @@ hr {
     animation: wave 2.1s 0.6s infinite;
     transform-origin: 75% 75%;
     display: inline-block;
+}
+
+.contact-icon {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    opacity: 0.7;
 }

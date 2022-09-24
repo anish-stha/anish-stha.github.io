@@ -6,6 +6,9 @@ import TopNavBar from "./TopNavBar";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import CV from "./CV";
 import "./style.css";
+import Projects from "./Projects";
+import Blog from "./Blog";
+import Contact from "./Contact";
 
 function App() {
     return (
@@ -21,6 +24,9 @@ function App() {
                             <TopNavBar/>
                             <Routes>
                                 <Route path="/" element={<CV/>}/>
+                                <Route path="/projects" element={<Projects/>}/>
+                                <Route path="/blog" element={<Blog/>}/>
+                                <Route path="/contact" element={<Contact/>}/>
                             </Routes>
                         </div>
                     </div>
