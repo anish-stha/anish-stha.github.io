@@ -45,7 +45,7 @@ function Cv(props) {
                             <strong>Programming:</strong>
                             <p>
                                 <span className="badge bg-secondary">Java</span>&nbsp;
-                                <span className="badge bg-secondary">javascript</span>&nbsp;
+                                <span className="badge bg-secondary">Javascript</span>&nbsp;
                                 <span className="badge bg-secondary">Python</span>&nbsp;
                                 <span className="badge bg-secondary">C++</span>&nbsp;
                             </p>
@@ -55,25 +55,28 @@ function Cv(props) {
                                 <span className="badge bg-secondary">ReactJS</span>&nbsp;
                                 <span className="badge bg-secondary">Hibernate</span>&nbsp;
                                 <span className="badge bg-secondary">Spring Boot</span>&nbsp;
-                                <span className="badge bg-secondary">Pandas</span>&nbsp;
                                 <span className="badge bg-secondary">Android</span>&nbsp;
-                                <span className="badge bg-secondary">NodeJS</span>&nbsp;
+                                <span className="badge bg-secondary">Express</span>&nbsp;
                             </p>
 
                             <strong>Database:</strong>
                             <p>
-                                <span className="badge bg-secondary">MongoDB</span>&nbsp;
+                                <span className="badge bg-secondary">MySQL</span>&nbsp;
                                 <span className="badge bg-secondary">PostgresSQL</span>&nbsp;
+                                <span className="badge bg-secondary">MongoDB</span>&nbsp;
                                 <span className="badge bg-secondary">Redis</span>&nbsp;
                             </p>
 
                             <strong>Tools:</strong>
                             <p>
+                                <span className="badge bg-secondary">NodeJs</span>&nbsp;
                                 <span className="badge bg-secondary">Docker</span>&nbsp;
                                 <span className="badge bg-secondary">Jenkins</span>&nbsp;
                                 <span className="badge bg-secondary">Portainer</span>&nbsp;
                                 <span className="badge bg-secondary">MQTT</span>&nbsp;
                                 <span className="badge bg-secondary">Kafka</span>&nbsp;
+                                <span className="badge bg-secondary">Pandas</span>&nbsp;
+                                <span className="badge bg-secondary">Unity</span>
                             </p>
 
                             <strong>Design:</strong>

@@ -70,7 +70,7 @@ hr {
 }
 
 .image-cover {
-    margin: 120px 20px 20px 20px;
+    margin: 100px 20px 20px 20px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -141,16 +141,22 @@ ul.project-points  li::before {
     }
 }
 
+@media only screen and (max-width: 992px) {
+    .navbar {
+        display: block !important;
+    }
+}
+
 .link {
     color: #0D47A1;
     text-decoration: underline;
     font-size: 1.2em;
     font-family: "Fjalla One", sans-serif;
-    padding-bottom: 32px;
     display: inline-block;
 }
 
 .icons {
+    margin-top: 32px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;

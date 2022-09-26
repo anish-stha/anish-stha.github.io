@@ -1,6 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min';
 import Intro from "./Intro";
 import TopNavBar from "./TopNavBar";
 import {BrowserRouter, Route, Routes} from "react-router-dom";

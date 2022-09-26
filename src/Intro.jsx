@@ -14,6 +14,7 @@ function Intro(props) {
             <h1 className="splash-text">Anish Shrestha</h1>
 
             <ReactTypingEffect
+                style={{marginBottom: "12px"}}
                 text={["Software Engineer", "Full Stack Developer"]}
                 cursorRenderer={cursor => <h2>{cursor}</h2>}
                 speed={100}
@@ -34,8 +35,13 @@ function Intro(props) {
             />
 
             {/*<h4 className="role">Software Engineer | Full Stack Developer</h4>*/}
-            <h4>Louisiana State University</h4>
 
+            <h4 style={{width: "80%"}}>M.S. in Computer Science, Louisiana State University</h4>
+
+            <p style={{width: "80%"}}>I am currently working as a Graduate Teaching Assistant in courses related to Software Engineering and Blockchain. I'm expecting to graduate in <b>December 2022</b> and will be looking for full-time roles.</p>
+            <p style={{width: "80%"}} >Lets get in touch → <a href="mailto:np.anishstha@gmail.com" className="link">Email</a></p>
+
+            <a href="https://drive.google.com/uc?export=download&id=1anT37t3MS7WbVgZM10Q8Ypdimf_XSrdW" download className="link">View Resume</a>
 
             <div className="icons">
                 <div>
@@ -51,21 +57,21 @@ function Intro(props) {
                 </div>
 
                 <div>
-                    <a href="https://github.com/anish01stha">
+                    <a href="https://github.com/anish01stha" target="_blank">
                         <img className="img-valign" src={ic_github}/>
                         <span>Github</span>
                     </a>
                 </div>
 
                 <div>
-                    <a href="https://www.linkedin.com/in/anishstha/">
+                    <a href="https://www.linkedin.com/in/anishstha/" target="_blank">
                         <img className="img-valign" src={ic_linkedin}/>
                         <span>Linkedin</span>
                     </a>
                 </div>
             </div>
 
-            <a href="https://drive.google.com/uc?export=download&id=1anT37t3MS7WbVgZM10Q8Ypdimf_XSrdW" download className="link">View Resume</a>
+
 
         </div>
     );
